@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Input {
     public static void main(String[] args) {
         /// array of primitives
-        Scanner in = new Scanner((System.in));
+        Scanner in = new Scanner(System.in);
         int[] arr = new int[5];
         arr[0] = 23;
         arr[1] = 44;
@@ -20,7 +20,7 @@ public class Input {
 //
 //        }
         // another way to print an array elements
-//        System.out.println(Arrays.toString(arr));
+       System.out.println(Arrays.toString(arr));
 
         //array of objects
         String[] str = new String[4];

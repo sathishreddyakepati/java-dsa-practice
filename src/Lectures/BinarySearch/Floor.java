@@ -7,7 +7,7 @@ public class Floor {
         System.out.println(floor(nums,target));
 
     }
-    //return the index: greatest number less than or equal to target
+    //return the index: greatest number less than or equal to target+
     //if element not found return -1
     static int floor(int[] arr,int target){
         int start = 0;

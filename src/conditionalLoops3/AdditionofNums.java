@@ -9,6 +9,6 @@ public class AdditionofNums {
         System.out.print("Enter number 2: ");
         int b = in.nextInt();
         int sum = a+b;
-        System.out.println("The sum of "+a+" and "+b+" is "+sum+" .");
+       System.out.println("The sum of "+a+" and "+b+" is "+sum+" .");
     }
 }

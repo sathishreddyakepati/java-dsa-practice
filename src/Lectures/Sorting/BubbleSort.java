@@ -1,7 +1,5 @@
 package Lectures.Sorting;
-
 import java.util.Arrays;
-
 public class BubbleSort {
     public static void main(String[] args) {
         int[] nums = {-9,-55,-99,0,89,3};
