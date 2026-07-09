@@ -2,7 +2,7 @@ package Lectures.Patterns;
 
 public class Main {
     public static void main(String[] args) {
-        pattern5(7);
+        pattern7(5);
 
     }
     static void pattern1(int n){
@@ -53,5 +53,35 @@ public class Main {
             }
             System.out.println();
         }
+    }
+
+    static void pattern6(int n){
+        for(int i = 1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(j<=n-i) {
+                    System.out.print(" ");
+                }
+                else{
+                    System.out.print("*");
+                }
+
+            }
+            System.out.println();
+        }
+    }
+    static void pattern7(int n){
+        for(int i = 1;i<=n;i++){
+            for(int j=1;j<=n;j++){
+                if(j>=i){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+
+            }
+            System.out.println();
+        }
+
     }
 }
